@@ -5,20 +5,20 @@
             <English>Main</English>
         </Key>
         <Key ID="STR_GunnerDown_main_url">
-            <English>https://github.com/DartsArmaMods/GunnerDown</English>
-            <Czech>https://github.com/DartsArmaMods/GunnerDown</Czech>
-            <French>https://github.com/DartsArmaMods/GunnerDown</French>
-            <Spanish>https://github.com/DartsArmaMods/GunnerDown</Spanish>
-            <Italian>https://github.com/DartsArmaMods/GunnerDown</Italian>
-            <Polish>https://github.com/DartsArmaMods/GunnerDown</Polish>
-            <Portuguese>https://github.com/DartsArmaMods/GunnerDown</Portuguese>
-            <Russian>https://github.com/DartsArmaMods/GunnerDown</Russian>
-            <German>https://github.com/DartsArmaMods/GunnerDown</German>
-            <Korean>https://github.com/DartsArmaMods/GunnerDown</Korean>
-            <Japanese>https://github.com/DartsArmaMods/GunnerDown</Japanese>
-            <Chinese>https://github.com/DartsArmaMods/GunnerDown</Chinese>
-            <Chinesesimp>https://github.com/DartsArmaMods/GunnerDown</Chinesesimp>
-            <Turkish>https://github.com/DartsArmaMods/GunnerDown</Turkish>
+            <English>https://github.com/Cplhardcore/GunnerDown</English>
+            <Czech>https://github.com/Cplhardcore/GunnerDown</Czech>
+            <French>https://github.com/Cplhardcore/GunnerDown</French>
+            <Spanish>https://github.com/Cplhardcore/GunnerDown</Spanish>
+            <Italian>https://github.com/Cplhardcore/GunnerDown</Italian>
+            <Polish>https://github.com/Cplhardcore/GunnerDown</Polish>
+            <Portuguese>https://github.com/Cplhardcore/GunnerDown</Portuguese>
+            <Russian>https://github.com/Cplhardcore/GunnerDown</Russian>
+            <German>https://github.com/Cplhardcore/GunnerDown</German>
+            <Korean>https://github.com/Cplhardcore/GunnerDown</Korean>
+            <Japanese>https://github.com/Cplhardcore/GunnerDown</Japanese>
+            <Chinese>https://github.com/Cplhardcore/GunnerDown</Chinese>
+            <Chinesesimp>https://github.com/Cplhardcore/GunnerDown</Chinesesimp>
+            <Turkish>https://github.com/Cplhardcore/GunnerDown</Turkish>
         </Key>
     </Package>
 </Project>

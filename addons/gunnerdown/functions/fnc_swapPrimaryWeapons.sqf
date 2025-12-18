@@ -1,9 +1,26 @@
-params [
+#include "..\script_component.hpp"
+/*
+ * Author: Cplhardcore
+ * swap weapons
+ *
+ * Arguments:
+ * 0: Player <OBJECT>
+ * 1: Target <OBJECT>
+ *
+ * Return Value:
+ * Bool
+ *
+ * Example:
+ * [player] call gunnerdown_fnc_swapPrimaryWeapons
+ *
+ * Public: No
+ */
+ params [
     ["_unitA", objNull, [objNull]],
     ["_unitB", objNull, [objNull]]
 ];
-[3, 
-    [_unitA, _unitB], 
+[GVAR(grabTime),
+    [_unitA, _unitB],
     {
         params ["_args"];
         _args params ["_unitA", "_unitB"];
@@ -32,7 +49,7 @@ private _restore = {
     if (_data isEqualTo []) exitWith {};
 
     _data params ["_weapon", "_attachments", "_mag", "_ammo"];
-    [_unit, _weapon, true, [[_mag, _ammo]]] call ace_common_fnc_addWeapon;
+    [_unit, _weapon, true, [[_mag, _ammo]]] call ACEFUNC(common,addWeapon);
     {
         if (_x != "") then {
             _unit addPrimaryWeaponItem _x;
@@ -40,11 +57,10 @@ private _restore = {
     } forEach _attachments;
 };
 
-/* Swap */
 [_unitA, _dataB] call _restore;
 [_unitB, _dataA] call _restore;
 
 _unitA selectWeapon (primaryWeapon _unitA);
 _unitB selectWeapon (primaryWeapon _unitB);
-    }, 
-    {}, "Grabbing Weapon"] call ace_common_fnc_progressBar;
+    },
+    {}, "Grabbing Weapon"] call ACEFUNC(common,progressBar);

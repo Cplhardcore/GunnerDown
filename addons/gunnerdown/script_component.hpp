@@ -1,5 +1,5 @@
-#define COMPONENT addonName
-#define COMPONENT_BEAUTIFIED Addon Name
+#define COMPONENT gunnerdown
+#define COMPONENT_BEAUTIFIED Gunner Down
 #include "\z\GunnerDown\addons\main\script_mod.hpp"
 
 // #define DEBUG_MODE_FULL

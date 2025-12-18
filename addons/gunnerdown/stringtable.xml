@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project name="GnD">
+    <Package name="gunnerdown">
+        <Key ID="STR_GunnerDown_gunnerdown_cba_Name">
+            <English>Gunner Down</English>
+        </Key>
+        <Key ID="STR_GunnerDown_gunnerdown_gunnerDownAction">
+            <English>Grab Weapon</English>
+        </Key>
+        <Key ID="STR_GunnerDown_gunnerdown_requireFriendly_name">
+            <English>Require Same side</English>
+        </Key>
+        <Key ID="STR_GunnerDown_gunnerdown_requireFriendly_Tooltip">
+            <English>If enabled, both units must be on the same side, (Eg Blufor and Blufor)</English>
+        </Key>
+        <Key ID="STR_GunnerDown_gunnerdown_GrabTime">
+            <English>Time to grab weapon</English>
+        </Key>
+    </Package>
+</Project>

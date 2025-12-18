@@ -3,12 +3,13 @@
 class CfgPatches {
     class ADDON {
         author = AUTHOR;
-        authors[] = {"You!"};
+        authors[] = {"Cplhardcore"};
         url = ECSTRING(main,url);
         name = COMPONENT_NAME;
         requiredVersion = REQUIRED_VERSION;
         requiredAddons[] = {
-            "GunnerDown_main"
+            "cba_main",
+            "ace_interact_menu"
         };
         units[] = {};
         weapons[] = {};
@@ -17,3 +18,4 @@ class CfgPatches {
 };
 
 #include "CfgEventHandlers.hpp"
+#include "CfgVehicles.hpp"

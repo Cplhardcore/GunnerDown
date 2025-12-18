@@ -2,20 +2,20 @@
 
 <h1 align="center">Gunner_Down</h1>
 <p align="center">
-    <a href="https://github.com/DartsArmaMods/GunnerDown/releases/latest">
+    <a href="https://github.com/Cplhardcore/GunnerDown/releases/latest">
         <img src="https://img.shields.io/badge/Version-0.0.0-blue?style=flat-square" alt="Gunner_Down Version">
     </a>
-    <a href="https://github.com/DartsArmaMods/GunnerDown/issues">
-        <img src="https://img.shields.io/github/issues-raw/DartsArmaMods/GunnerDown.svg?style=flat-square&label=Issues" alt="Gunner_Down Issues">
+    <a href="https://github.com/Cplhardcore/GunnerDown/issues">
+        <img src="https://img.shields.io/github/issues-raw/Cplhardcore/GunnerDown.svg?style=flat-square&label=Issues" alt="Gunner_Down Issues">
     </a>
     <a href="https://steamcommunity.com/sharedfiles/filedetails/?id=MOD_ID">
         <img src="https://img.shields.io/steam/downloads/MOD_ID.svg?style=flat-square&label=Downloads" alt="Gunner_Down Downloads">
     </a>
-    <a href="https://github.com/DartsArmaMods/GunnerDown/blob/master/LICENSE">
+    <a href="https://github.com/Cplhardcore/GunnerDown/blob/master/LICENSE">
         <img src="https://img.shields.io/badge/License-APL ND-red?style=flat-square" alt="Gunner_Down License">
     </a>
     <br>
-    <img src="https://img.shields.io/github/actions/workflow/status/DartsArmaMods/GunnerDown/check.yml?style=flat-square&label=HEMTT" alt="HEMTT">
+    <img src="https://img.shields.io/github/actions/workflow/status/Cplhardcore/GunnerDown/check.yml?style=flat-square&label=HEMTT" alt="HEMTT">
 </p>
 
 <p align="center">
@@ -33,7 +33,7 @@ Delete this section after the project has been initially set up:
    - This should be all uppercase.
 5. After the initial Steam upload, find and replace all instances of `MOD_ID` with the mod's Steam Workshop id.
 
-For third parties, make sure to also replace `DartsArmaMods` with your Github username / organization name, and to replace `DartRuffian` with your username.
+For third parties, make sure to also replace `Cplhardcore` with your Github username / organization name, and to replace `DartRuffian` with your username.
 
 **Gunner_Down** (GnD) aims to...
 
