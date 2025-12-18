@@ -18,4 +18,7 @@
 params ["_player", "_target"];
 
 (_target getVariable ["ACE_isUnconscious", false] || (!alive _target)) &&
-side (group _target) == side (group _player);
+(
+    !GVAR(requireFriendly) ||
+    (side (group _target) == side (group _player))
+);
