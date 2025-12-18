@@ -1,0 +1,2 @@
+PREP(canSwapPrimaryWeapons);
+PREP(swapPrimaryWeapons);

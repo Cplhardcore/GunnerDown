@@ -1,0 +1,24 @@
+name = "Gunner_Down"
+author = "DartRuffian"
+prefix = "GunnerDown"
+mainprefix = "z"
+
+[version]
+path = "addons/main/script_version.hpp"
+git_hash = 0
+
+[files]
+include = [
+    "mod.cpp",
+    "meta.cpp",
+    "logo_GunnerDown.png",
+    "logo_GunnerDown_over.png",
+    "logo_GunnerDown_ca.paa",
+    "logo_GunnerDown_over_ca.paa",
+    "LICENSE.md",
+    "README.md",
+]
+exclude = []
+
+[properties]
+author = "DartRuffian"
