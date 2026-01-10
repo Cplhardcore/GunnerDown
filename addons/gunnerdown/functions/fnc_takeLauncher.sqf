@@ -23,7 +23,7 @@ if !([_player, _target, _launcher] call FUNC(canSwapPrimaryWeapons)) exitWith {}
 private _playerName = [_player] call ACEFUNC(common,getName);
 private _cfgWeapons = configFile >> "CfgWeapons" >> _launcher;
 private _displayName = getText (_cfgWeapons >> "displayName");
-[QACEGVAR(common,displayTextStructured), [[LSTRING(TakingLauncherHint), _playerName, _displayName], 1.5, _target], _target] call CBA_fnc_targetEvent;
+[QACEGVAR(common,displayTextStructured), [[LSTRING(PassLauncherHint), _playerName, _displayName], 1.5, _target], _target] call CBA_fnc_targetEvent;
 
 if (_launcher isEqualTo "") exitWith {ERROR("No launcher specified.")};
 if (secondaryWeapon _player isNotEqualTo "") exitWith {ERROR("Cannot add launcher to target due to lack of inventory space.")};

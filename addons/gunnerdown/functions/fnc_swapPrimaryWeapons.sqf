@@ -60,7 +60,7 @@ private _restore = {
 
 [_unitA, _dataB] call _restore;
 [_unitB, _dataA] call _restore;
- [_unitA, "PutDown"] call EFUNC(common,doGesture);
+ [_unitA, "PutDown"] call ACEFUNC(common,doGesture);
 _unitA selectWeapon (primaryWeapon _unitA);
 _unitB selectWeapon (primaryWeapon _unitB);
     },
