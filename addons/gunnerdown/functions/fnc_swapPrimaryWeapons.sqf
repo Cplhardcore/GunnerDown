@@ -41,8 +41,8 @@ if !([_unitA, _unitB] call FUNC(canSwapPrimaryWeapons)) exitWith {};
 
 private _dataA = [_unitA] call _getWeaponData;
 private _dataB = [_unitB] call _getWeaponData;
-_unitA removeWeapon (primaryWeapon _unitA);
-_unitB removeWeapon (primaryWeapon _unitB);
+_unitA removeWeaponGlobal (primaryWeapon _unitA);
+_unitB removeWeaponGlobal (primaryWeapon _unitB);
 
 private _restore = {
     params ["_unit", "_data"];

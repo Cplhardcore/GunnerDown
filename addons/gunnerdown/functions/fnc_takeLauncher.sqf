@@ -38,7 +38,7 @@ if (secondaryWeapon _player isNotEqualTo "") exitWith {ERROR("Cannot add launche
         private _magazines = _items select [4, 2];
         _items deleteRange [4, 2];
 
-        _target removeWeapon _launcher;
+        _target removeWeaponGlobal _launcher;
 
         [_player, _launcher, true, _magazines] call ACEFUNC(common,addWeapon);
 
