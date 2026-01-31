@@ -19,7 +19,7 @@
  */
 params ["_player", "_target", "_launcher"];
 TRACE_3("Take launcher params",_player,_target,_launcher);
-if !([_player, _target, _launcher] call FUNC(canSwapPrimaryWeapons)) exitWith {};
+if !([_player, _target, _launcher] call FUNC(canTakeLauncher)) exitWith {};
 private _playerName = [_player] call ACEFUNC(common,getName);
 private _cfgWeapons = configFile >> "CfgWeapons" >> _launcher;
 private _displayName = getText (_cfgWeapons >> "displayName");
